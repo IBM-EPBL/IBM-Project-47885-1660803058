@@ -26,29 +26,12 @@
             </div>
           </nav>
           <div class="container">
-
-
             {% block content %}
-            {%endblock%}
-            
+            {%endblock%}          
           </div>
-            {% block jsextn %}
-            
+            {% block jsextn %}    
             {% endblock jsextn %}
-
-            <!-- <script>
-              window.watsonAssistantChatOptions = {
-                integrationID: "4241b87c-51e6-4f79-a994-2dc8f2298c7f", // The ID of this integration.
-                region: "au-syd", // The region your integration is hosted in.
-                serviceInstanceID: "9772d0f5-1544-495b-9a00-063519721194", // The ID of your service instance.
-                onLoad: function(instance) { instance.render(); }
-              };
-              setTimeout(function(){
-                const t=document.createElement('script');
-                t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-                document.head.appendChild(t);
-              });
-            </script> -->
+          
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
